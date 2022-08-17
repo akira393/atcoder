@@ -6,5 +6,8 @@
   - そうすると、フォルダとファイルを作成してくれる
 
 ```bash
-bash tools/createfile.sh https://atcoder.jp/contests/abc139/tasks/abc139_b
+$ python tools/createfile.py
+urlを入力してください:https://atcoder.jp/contests/abc083/tasks/abc083_b
+abc083/b.py
+$
 ```

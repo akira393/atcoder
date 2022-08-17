@@ -6,7 +6,7 @@
 # sys.stdin = io.StringIO(_INPUT)
 
 # N= int(input())
-# N, M = map(int, input().split())
+
 # M = map(int, input().split())
 M = list(map(int, input().split()))
 
