@@ -6,18 +6,22 @@
 # """
 # sys.stdin = io.StringIO(_INPUT)
 
+# N= int(input())
+# d=[]
+# ans=0
+# for n in range(N):
+#     d.append(int(input()))
+
+# d=sorted(set(d))
+# print(len(d))
+
+# 別解
 N= int(input())
-
-
-d=[]
+# d=[]
 ans=0
+bucket=[0]*(100+1)
 for n in range(N):
-    d.append(int(input()))
+    d=int(input())
+    bucket[d]=1
 
-d=sorted(set(d))
-print(len(d))
-
-# 文字列関連
-# 文字列判定（大文字の数が2つかどうかの判定）
-# if sum(map(str.isupper,s))!=2:
-    
+print(sum(bucket))
